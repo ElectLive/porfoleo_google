@@ -3,6 +3,14 @@ import Link from "next/link";
 
 type Locale = "es" | "en" | "ca";
 
+interface Project {
+  title: string;
+  description: string;
+  tecnologies: string[];
+  link: string;
+  image?: string;
+}
+
 export default async function ProjectsPage({
   params,
 }: {
@@ -23,7 +31,7 @@ export default async function ProjectsPage({
 
       <div className="flex flex-col gap-12">
         {projectIds.map((id) => {
-          const project = projectDetails[id];
+          const project = projectDetails[id] as Project;
           return (
             <div key={id} className="group flex flex-col md:flex-row gap-6">
               {/* Text Content */}
@@ -64,8 +72,11 @@ export default async function ProjectsPage({
               {/* Image Space (Thumbnail) */}
               <div className="shrink-0">
                 <div className="w-32 h-20 bg-border rounded-xl overflow-hidden border border-border flex items-center justify-center text-text-muted text-[10px] italic group-hover:border-blue-300 transition-colors">
-                  {/* Aquí anirà la imatge: <img src={project.image} alt={project.title} className="w-full h-full object-cover" /> */}
-                  Imatge
+                  {project.image ? (
+                    <img src={project.image} alt={project.title} className="w-full h-full object-cover" />
+                  ) : (
+                    "Imatge"
+                  )}
                 </div>
               </div>
             </div>

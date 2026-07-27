@@ -18,9 +18,11 @@ interface TechGridProps {
 export default function TechGrid({ techs, categories }: TechGridProps) {
     const [activeCategory, setActiveCategory] = useState('all');
 
+    console.log(`TechGrid render: activeCategory=${activeCategory}, techsCount=${techs.length}, categoriesKeys=${Object.keys(categories).join(',')}`);
+
     const filteredTechs = activeCategory === 'all'
         ? techs
-        : techs.filter(t => t.category === activeCategory);
+        : techs.filter(t => t.category?.trim().toLowerCase() === activeCategory.trim().toLowerCase());
 
     return (
         <div className="space-y-8">
@@ -66,7 +68,7 @@ export default function TechGrid({ techs, categories }: TechGridProps) {
                     <div key={tech.name} className="group relative aspect-video bg-border rounded-xl overflow-hidden border border-border hover:border-blue-400 transition-all cursor-pointer shadow-sm">
                         <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 p-2">
                             <img
-                                src={`https://img.shields.io/badge/${tech.name.toLowerCase()}-${tech.color}?style=for-the-badge&logo=${tech.logo}&logoColor=white`}
+                                src={`https://img.shields.io/badge/${encodeURIComponent(tech.name)}-${tech.color.replace('#', '')}?style=for-the-badge&logo=${tech.logo}&logoColor=white`}
                                 alt={tech.name}
                                 className="w-full h-auto rounded-sm"
                             />

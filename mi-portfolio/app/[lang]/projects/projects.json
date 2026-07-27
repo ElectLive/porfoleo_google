@@ -1,11 +1,13 @@
 [
     {
         "id": "ciclo-bnb",
-        "link": "https://github.com/norbert/ciclo-bnb"
+        "link": "https://github.com/norbert/ciclo-bnb",
+        "image": "mi-portfolio/app/images/cicloBnB.png"
     },
     {
         "id": "stream-sync",
         "link": "https://github.com/norbert/stream-sync"
+        
     },
     {
         "id": "anime-view",
