@@ -37,8 +37,8 @@ export default async function IAPage({
             <p className="text-text-muted text-sm">{dict.ia.expierence_text}</p>
         </div>
         <div className="p-6 border border-border rounded-2xl bg-header-bg shadow-sm">
-            <h3 className="font-bold text-foreground mb-2">{dict.ia.habilities}</h3>
-            <p className="text-text-muted text-sm">{dict.ia.habilities_text}</p>
+            <h3 className="font-bold text-foreground mb-2">{dict.ia.abilities}</h3>
+            <p className="text-text-muted text-sm">{dict.ia.abilities_text}</p>
         </div>
       </div>
     </div>
