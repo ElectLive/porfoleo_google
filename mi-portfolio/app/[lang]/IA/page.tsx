@@ -33,12 +33,12 @@ export default async function IAPage({
       {/* Espacio para contenido adicional (simulando los resultados de búsqueda) */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="p-6 border border-border rounded-2xl bg-header-bg shadow-sm">
-            <h3 className="font-bold text-foreground mb-2">Experiencia</h3>
-            <p className="text-text-muted text-sm">Detalles sobre mi trayectoria profesional y proyectos destacados.</p>
+            <h3 className="font-bold text-foreground mb-2">{dict.ia.expierence}</h3>
+            <p className="text-text-muted text-sm">{dict.ia.expierence_text}</p>
         </div>
         <div className="p-6 border border-border rounded-2xl bg-header-bg shadow-sm">
-            <h3 className="font-bold text-foreground mb-2">Habilidades</h3>
-            <p className="text-text-muted text-sm">Dominio de tecnologías Full stack, desde el frontend hasta el backend.</p>
+            <h3 className="font-bold text-foreground mb-2">{dict.ia.habilities}</h3>
+            <p className="text-text-muted text-sm">{dict.ia.habilities_text}</p>
         </div>
       </div>
     </div>

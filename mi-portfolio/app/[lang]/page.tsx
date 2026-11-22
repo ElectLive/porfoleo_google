@@ -63,10 +63,10 @@ export default async function Home({
 
         {/* Redes Sociales al final */}
         <div className="pt-4 flex gap-4">
-          <a href="https://linkedin.com/in/norbert" target="_blank" className="p-2 border border-border rounded-full bg-header-bg hover:bg-gray-100 dark:hover:bg-gray-800 transition-all text-text-muted hover:text-foreground">
+          <a href="https://www.linkedin.com/in/norbert-aguilera-capdevila-553908278/" target="_blank" className="p-2 border border-border rounded-full bg-header-bg hover:bg-gray-100 dark:hover:bg-gray-800 transition-all text-text-muted hover:text-foreground">
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 6h6v2h-6v-2zm0 11h6v2h-6v-2zm0-5h6v2h-6v-2z"/></svg>
           </a>
-          <a href="https://github.com/norbert" target="_blank" className="p-2 border border-border rounded-full bg-header-bg hover:bg-gray-100 dark:hover:bg-gray-800 transition-all text-text-muted hover:text-foreground">
+          <a href="https://github.com/NorbertAguilera" target="_blank" className="p-2 border border-border rounded-full bg-header-bg hover:bg-gray-100 dark:hover:bg-gray-800 transition-all text-text-muted hover:text-foreground">
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387c.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.412-4.033-1.412-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.911 0-1.311.469-2.909 1.271-3.909-.126-.303-.43-1.522.141-3.385 0 0 1.041-.351 2.18 1.193 0 0 1.122-.192 2.303 1.193 0 0 1.041-.351 2.18-1.193z"/></svg>
           </a>
         </div>

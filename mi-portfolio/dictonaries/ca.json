@@ -9,7 +9,12 @@
     },
     "ia": {
         "welcome": "Benvingut al meu portfolio personal!",
-        "description": "Em dic Norbert, sóc desenvolupador de software Full stack amb passió per crear solucions innovadores i eficients. M'encanta explorar noves tecnologies i millorar l'experiència de l'usuari a través d'un codi net i un disseny modern."
+        "description": "Em dic Norbert, sóc desenvolupador de software Full stack amb passió per crear solucions innovadores i eficients. M'encanta explorar noves tecnologies i millorar l'experiència de l'usuari a través d'un codi net i un disseny modern.",
+        "expierence": "Trajectòria Professional",
+        "expierence_text":"",
+        "habilities":"Habilitats",
+        "habilities_text":""
+
     },
     "home": {
         "title": "Norbert Aguilera",
@@ -43,23 +48,25 @@
                     "Java",
                     "XML"
                 ],
-                "link": "https://github.com/eliasporter/CicloBnBand.git"
+                "link": "https://github.com/eliasporter/CicloBnBand.git",
+                "image": "/images/cicloBnB.png"
             },
             "stream-sync": {
                 "title": "Stream Sync",
-            "description": "Plataforma que centralitza diferents plataformes de streaming en una sola aplicació, usant diverses APIs i gestió d'usuaris i recollida de dades.",
-            "tecnologies": [
-                "Django",
-                "Rest API",
-                "Python",
-                "HTML",
-                "CSS",
-                "JS",
-                "PostgreSQL",
-                "Tailwind",
-                "SQLite"
-            ],
-            "link": "https://github.com/Null-Pointers2-0/JoinProject.git"
+                "description": "Plataforma que centralitza diferents plataformes de streaming en una sola aplicació, usant diverses APIs i gestió d'usuaris i recollida de dades.",
+                "tecnologies": [
+                    "Django",
+                    "Rest API",
+                    "Python",
+                    "HTML",
+                    "CSS",
+                    "JS",
+                    "PostgreSQL",
+                    "Tailwind",
+                    "SQLite"
+                ],
+                "link": "https://github.com/Null-Pointers2-0/JoinProject.git",
+                "image": "/images/stream_sync.png"
             },
             "anime-view": {
                 "title": "AnimeViewApp",
@@ -71,7 +78,8 @@
                     "XML",
                     "Python"
                 ],
-                "link": "https://github.com/NorbertAguilera/AnimeViewProve.git"
+                "link": "https://github.com/NorbertAguilera/AnimeViewProve.git",
+                "image": "/images/anime_view.png"
             },
             "flutter-anime": {
                 "title": "Flutter Anime App",
@@ -82,11 +90,12 @@
                     "Rest API",
                     "SQLite"
                 ],
-                "link": "https://github.com/NorbertAguilera/flutter_anime_app.git"
+                "link": "https://github.com/NorbertAguilera/flutter_anime_app.git",
+                "image": "/images/flutter_anime.png"
             },
             "zone-lock": {
                 "title": "ZoneLock",
-                "description": "Aplicació per a smartwatch per a gestionar l'esforç que s'està exericint en diferernts exercicis per a tenir mesures més exactes.",
+                "description": "Aplicació per a smartwatch per a gestionar l'esforç que s'està exericint en diferernts exercicis per a tener mesures més exactes.",
                 "tecnologies": [
                     "Kotlin",
                     "Android",
@@ -94,7 +103,8 @@
                     "SQLite",
                     "Rest API"
                 ],
-                "link": "https://github.com/NorbertAguilera/ZoneLock.git"
+                "link": "https://github.com/NorbertAguilera/ZoneLock.git",
+                "image": "/images/zone_lock.png"
             },
             "portfolio-google": {
                 "title": "Portfolio Estil Google",
@@ -105,8 +115,19 @@
                     "Tailwind",
                     "Rest API"
                 ],
-                "link": "https://github.com/NorbertAguilera/porfoleo_google.git"
+                "link": "https://github.com/NorbertAguilera/porfoleo_google.git",
+                "image": "/images/portfolio_google.png"
             }
+        }
+    },
+    "tecnologies": {
+        "title": "Tecnologies",
+        "subtitle": "El meu stack tecnològic",
+        "categories": {
+            "languages": "Llenguatges",
+            "frontend": "Frontend i Mòbil",
+            "backend": "Backend i Bases de Dades",
+            "tools": "Eines"
         }
     }
 }
